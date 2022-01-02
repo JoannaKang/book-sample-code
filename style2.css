@@ -1,0 +1,49 @@
+/* 요소 선택자 */
+div {
+  padding: 20px;
+  border: 1px solid green;
+}
+
+/* 아이디 선택자 */
+#section-1 {
+  background-color: pink;
+}
+
+#section-2 {
+  background-color: beige;
+}
+
+/* 클래스 선택자 */
+.intro {
+  color: red;
+}
+
+.content {
+  color: blue;
+}
+
+#section-1 .content {
+  text-decoration: underline;
+}
+
+/* section > div > span {
+  background-color: yellow;
+} */
+
+/* section span {
+  background-color: yellow;
+} */
+
+/* .background {
+  background-color: pink;
+} */
+
+/* 인접 형제 선택자: 동생 선택자에게만 적용됨 */
+/* .intro + .content {
+  background-color: yellow;
+} */
+
+/* 일반 형제 선택자: 해당 요소와 형제관계에 있으며, 뒤에 있는 모든 태그를 선택한다 */
+/* .intro ~ div {
+  background-color: yellowgreen;
+} */
