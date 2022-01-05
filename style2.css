@@ -1,20 +1,20 @@
 /* 요소 선택자 */
-div {
+/* div {
   padding: 20px;
   border: 1px solid green;
-}
+} */
 
 /* 아이디 선택자 */
-#section-1 {
+/* #section-1 {
   background-color: pink;
 }
 
 #section-2 {
   background-color: beige;
-}
+} */
 
 /* 클래스 선택자 */
-.intro {
+/* .intro {
   color: red;
 }
 
@@ -24,9 +24,21 @@ div {
 
 #section-1 .content {
   text-decoration: underline;
+} */
+
+/* section div {
+  background-color: yellow;
 }
 
-/* section > div > span {
+section span {
+  background-color: pink;
+}
+
+div span {
+  background-color: yellowgreen;
+} */
+
+/* body #section-1 div {
   background-color: yellow;
 } */
 
@@ -34,16 +46,35 @@ div {
   background-color: yellow;
 } */
 
+/* 
+body > div {
+  background-color: yellowgreen;
+}
+
 /* .background {
   background-color: pink;
 } */
 
-/* 인접 형제 선택자: 동생 선택자에게만 적용됨 */
-/* .intro + .content {
+/* 자손 결합자 */
+/* body section {
   background-color: yellow;
+  padding: 20px;
+  border: 1px solid green;
 } */
+
+/* 자식 결합자 */
+/* body > section {
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid green;
+} */
+
+/* 인접 형제 선택자: 동생 선택자에게만 적용됨 */
+.intro + .content {
+  background-color: yellow;
+}
 
 /* 일반 형제 선택자: 해당 요소와 형제관계에 있으며, 뒤에 있는 모든 태그를 선택한다 */
 /* .intro ~ div {
-  background-color: yellowgreen;
+  background-color: yellow;
 } */

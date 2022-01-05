@@ -1,0 +1,48 @@
+div {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* #id-1 {
+  background-color: coral;
+}
+
+.class-2 {
+  background-color: pink;
+}
+
+.class-2 {
+  background-color: green;
+}
+
+#id-3 {
+  background-color: red;
+}
+
+.class-3 {
+  background-color: teal !important;
+}
+
+.class-3 {
+  background-color: blue;
+}
+
+#class-1 {
+  background-color: aqua;
+} */
+
+#id-1 {
+  background-color: aqua;
+}
+
+.class-2 {
+  background-color: green;
+}
+
+#id-2 {
+  background-color: red;
+}
+
+.class-3 {
+  background-color: blue;
+}
