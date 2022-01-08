@@ -1,0 +1,48 @@
+body {
+  background-color: beige;
+}
+
+section {
+  background-color: white;
+  border: 1px solid red;
+  height: 100%;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px dotted black;
+}
+
+.static {
+  top: 30px;
+  left: 30px;
+}
+
+.relative {
+  background-color: yellow;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.absolute {
+  background-color: yellowgreen;
+  position: absolute;
+  top: 450px;
+  left: 100px;
+}
+
+.sticky {
+  background-color: teal;
+  position: sticky;
+  top: 40px;
+  left: 45px;
+}
+
+.fixed {
+  background-color: skyblue;
+  position: fixed;
+  top: 60px;
+  left: 200px;
+}

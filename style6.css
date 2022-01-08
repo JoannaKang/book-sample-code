@@ -1,0 +1,26 @@
+.inline {
+  display: inline;
+  background-color: yellowgreen;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.block {
+  display: block;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: teal;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 10px;
+}
