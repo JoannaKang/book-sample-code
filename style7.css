@@ -1,0 +1,43 @@
+/* html {
+  font-size: 62.5%;
+} */
+
+div {
+  border: 1px solid black;
+}
+
+.em {
+  background-color: beige;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.em-inside {
+  background-color: wheat;
+  font-size: 2em;
+  padding: 2em;
+}
+
+.rem {
+  background-color: beige;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.rem-inside {
+  background-color: wheat;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.vh {
+  font-size: 10vh;
+}
+
+.vw {
+  font-size: 20vw;
+}
+
+.percent {
+  font-size: 200%;
+}

@@ -1,17 +1,17 @@
 /* 요소 선택자 */
-/* div {
+div {
   padding: 20px;
   border: 1px solid green;
-} */
+}
 
 /* 아이디 선택자 */
-/* #section-1 {
+#section-1 {
   background-color: pink;
 }
 
 #section-2 {
   background-color: beige;
-} */
+}
 
 /* 클래스 선택자 */
 /* .intro {
@@ -24,9 +24,9 @@
 
 #section-1 .content {
   text-decoration: underline;
-} */
+}
 
-/* section div {
+section div {
   background-color: yellow;
 }
 
@@ -36,7 +36,7 @@ section span {
 
 div span {
   background-color: yellowgreen;
-} */
+}
 
 /* body #section-1 div {
   background-color: yellow;
