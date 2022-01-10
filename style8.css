@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  margin: 0;
+  display: flex;
+  background-color: beige;
+  width: 100vw;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: cadetblue;
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem;
+}
+
+.item-1 {
+  /* flex: 1 1 auto; */
+  align-self: flex-end;
+}
+
+.item-2 {
+  /* flex: 1 1 auto; */
+  align-self: flex-start;
+}
